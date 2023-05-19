@@ -39,11 +39,6 @@ variable "image_family" {
   default = "ubuntu-2004-lts"
 }
 
-variable "image_id" {
-  type    = string
-  default = "fd8aic46uv4b9nc3pqt7"
-}
-
 variable "platform_id" {
   type    = string
   default = "standard-v3"
